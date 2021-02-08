@@ -1,0 +1,29 @@
+{
+  "name": "azis-blog",
+  "version": "1.0.0",
+  "description": "欢迎来到妙曼的森林小屋做客",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev":"vuepress dev docs",
+    "build":"vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marxliumal/azis-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marxliumal/azis-blog/issues"
+  },
+  "homepage": "https://github.com/Marxliumal/azis-blog#readme"
+}
