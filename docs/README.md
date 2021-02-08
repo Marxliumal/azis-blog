@@ -3,7 +3,7 @@
     heroImage: /img/azis.jfif
     heroText: You aren't gonna neet it
     tagline: 大道至简。
-    actionText: 立即学习 →
+    actionText: 立即学习1 →
     actionLink: /config
     features:
     - title: 简洁至上
