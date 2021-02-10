@@ -6,12 +6,12 @@ cd docs/.vuepress/dist # 进入生成的文件夹
 
 # deploy to github
 echo 'Marxliumal.github.io/azis-blog' > CNAME
-if [ -z "$ACCESS_TOKEN" ]; then
+if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:Marxliumal/azis-blog.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://Marxliumal:${ACCESS_TOKEN}@github.com/Marxliumal/azis-blog.git
+  githubUrl=https://Marxliumal:${GITHUB_TOKEN}@github.com/Marxliumal/azis-blog.git
   git config --global user.name "Marxliumal"
   git config --global user.email "marxliumal@163.com"
 fi
