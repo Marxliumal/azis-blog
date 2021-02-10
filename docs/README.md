@@ -2,7 +2,7 @@
     home: true
     heroImage: /img/azis.jfif
     heroText: You aren't gonna neet it
-    tagline: 大道至简。
+    tagline: 大道至简1。
     actionText: 立即学习 →
     actionLink: /config
     features:
